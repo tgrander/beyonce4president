@@ -9,16 +9,6 @@ const PlaylistItem = ({track}) => {
     backgroundImage: `url(${imageURL})`
   }
 
-  // const displayTrackDetailsOnMouseEnter = () => {
-  //   console.log('ENTERED');
-  //   const $hoverDetails = $('.hover-state')
-  //   console.log('HOVER STATE', $hoverDetails);
-  //   $hoverDetails.css('display','none')
-  //   $('.play-list-item').bind('mouseleave', () => {
-  //     $hoverDetails.css('display', 'none')
-  //   })
-  // }
-
   let playing = false
   const songURL = track.preview_url
   const audio = new Audio(songURL)

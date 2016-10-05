@@ -11,11 +11,9 @@
   justify-content: space-around;
   align-items: center;
   z-index: 21;
-  /*background-color: #FFFFFF;*/
 }
 
 h2 {
-  /*margin-top: 10px;*/
   padding: 5px;
   border: 1px solid;
   width: 20%;
@@ -26,12 +24,3 @@ h2 {
 .icon {
   margin: 1%;
 }
-/*.icon .instagram {
-  border-color: #00AAEC;
-}
-.icon .spotify {
-  border-color: #00DA5A;
-}
-.icon .twitter {
-  border-color: #FEB0DF;
-}*/
